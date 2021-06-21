@@ -1,0 +1,16 @@
+PODS:
+  - Kount (4.1.5)
+
+DEPENDENCIES:
+  - Kount (= 4.1.5)
+
+SPEC REPOS:
+  https://github.com/Kount/kount-pod-spec.git:
+    - Kount
+
+SPEC CHECKSUMS:
+  Kount: dd556d5cf61a81a9f6b5911afef19d90e3fa5eab
+
+PODFILE CHECKSUM: f27a6d2383debf13ae4f23226b4d283314ca3bc2
+
+COCOAPODS: 1.10.1

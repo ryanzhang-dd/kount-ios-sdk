@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77F2B72A23A7507A90585DAA /* Pods_CheckoutExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F887F8A63AC7FF894064C283 /* Pods_CheckoutExampleSwift.framework */; };
 		7E7826A61CDA4D120008C69A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7826A51CDA4D120008C69A /* AppDelegate.swift */; };
 		7E7826A81CDA4D120008C69A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7826A71CDA4D120008C69A /* ViewController.swift */; };
 		7E7826AB1CDA4D120008C69A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7826A91CDA4D120008C69A /* Main.storyboard */; };
 		7E7826AD1CDA4D120008C69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7826AC1CDA4D120008C69A /* Assets.xcassets */; };
 		7E7826B01CDA4D120008C69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7826AE1CDA4D120008C69A /* LaunchScreen.storyboard */; };
 		7E7826B81CDA4DD30008C69A /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7826B71CDA4DD30008C69A /* CheckoutViewController.swift */; };
-		ACDCC40D2609AB3000BA9266 /* KountDataCollector.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDCC40A2609AB1800BA9266 /* KountDataCollector.xcframework */; };
-		ACDCC40E2609AB3000BA9266 /* KountDataCollector.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ACDCC40A2609AB1800BA9266 /* KountDataCollector.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC83D0822680BDB1004436A1 /* KountDataCollector.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83D0812680BDB1004436A1 /* KountDataCollector.xcframework */; };
 		ACFE766525CAB93700825D2C /* CustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFE765F25CAB93700825D2C /* CustomWindow.m */; };
 		ACFE766625CAB93700825D2C /* UIViewController+TouchControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFE766025CAB93700825D2C /* UIViewController+TouchControl.m */; };
 		ACFE766725CAB93700825D2C /* UIControl+CustomControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFE766425CAB93700825D2C /* UIControl+CustomControl.m */; };
@@ -27,7 +27,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ACDCC40E2609AB3000BA9266 /* KountDataCollector.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,13 +43,16 @@
 		7E7826B11CDA4D120008C69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E7826B71CDA4DD30008C69A /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		7E7826BC1CDA50290008C69A /* CheckoutExampleSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CheckoutExampleSwift-Bridging-Header.h"; path = "CheckoutExampleSwift/CheckoutExampleSwift-Bridging-Header.h"; sourceTree = "<group>"; };
-		ACDCC40A2609AB1800BA9266 /* KountDataCollector.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = KountDataCollector.xcframework; path = ../KountDataCollector.xcframework; sourceTree = "<group>"; };
+		AC83D0812680BDB1004436A1 /* KountDataCollector.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = KountDataCollector.xcframework; path = Pods/Kount/xcframeworks/KountDataCollector.xcframework; sourceTree = "<group>"; };
 		ACFE765F25CAB93700825D2C /* CustomWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
 		ACFE766025CAB93700825D2C /* UIViewController+TouchControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TouchControl.m"; sourceTree = "<group>"; };
 		ACFE766125CAB93700825D2C /* UIControl+CustomControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CustomControl.h"; sourceTree = "<group>"; };
 		ACFE766225CAB93700825D2C /* CustomWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWindow.h; sourceTree = "<group>"; };
 		ACFE766325CAB93700825D2C /* UIViewController+TouchControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TouchControl.h"; sourceTree = "<group>"; };
 		ACFE766425CAB93700825D2C /* UIControl+CustomControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CustomControl.m"; sourceTree = "<group>"; };
+		D1428AD0BEC9608F9EDF9E28 /* Pods-CheckoutExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckoutExampleSwift.debug.xcconfig"; path = "Target Support Files/Pods-CheckoutExampleSwift/Pods-CheckoutExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		EF73B11ED124C66AA348E72A /* Pods-CheckoutExampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckoutExampleSwift.release.xcconfig"; path = "Target Support Files/Pods-CheckoutExampleSwift/Pods-CheckoutExampleSwift.release.xcconfig"; sourceTree = "<group>"; };
+		F887F8A63AC7FF894064C283 /* Pods_CheckoutExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckoutExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDCC40D2609AB3000BA9266 /* KountDataCollector.xcframework in Frameworks */,
+				AC83D0822680BDB1004436A1 /* KountDataCollector.xcframework in Frameworks */,
+				77F2B72A23A7507A90585DAA /* Pods_CheckoutExampleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,11 +71,11 @@
 		7E7826991CDA4D120008C69A = {
 			isa = PBXGroup;
 			children = (
-				ACDCC40A2609AB1800BA9266 /* KountDataCollector.xcframework */,
 				7E7826BC1CDA50290008C69A /* CheckoutExampleSwift-Bridging-Header.h */,
 				7E7826A41CDA4D120008C69A /* CheckoutExampleSwift */,
 				7E7826A31CDA4D120008C69A /* Products */,
 				ACFE764525CA80D900825D2C /* Frameworks */,
+				BAE7B9AD994416F5B9E26570 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +105,8 @@
 		ACFE764525CA80D900825D2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC83D0812680BDB1004436A1 /* KountDataCollector.xcframework */,
+				F887F8A63AC7FF894064C283 /* Pods_CheckoutExampleSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +125,15 @@
 			path = ../../KountDataCollectorUnivesalLibrary/TouchControls;
 			sourceTree = "<group>";
 		};
+		BAE7B9AD994416F5B9E26570 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1428AD0BEC9608F9EDF9E28 /* Pods-CheckoutExampleSwift.debug.xcconfig */,
+				EF73B11ED124C66AA348E72A /* Pods-CheckoutExampleSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E7826B41CDA4D120008C69A /* Build configuration list for PBXNativeTarget "CheckoutExampleSwift" */;
 			buildPhases = (
+				284E5D89EA9EA1FB0AF0A5D5 /* [CP] Check Pods Manifest.lock */,
 				7E78269E1CDA4D120008C69A /* Sources */,
 				7E78269F1CDA4D120008C69A /* Frameworks */,
 				7E7826A01CDA4D120008C69A /* Resources */,
@@ -190,6 +205,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		284E5D89EA9EA1FB0AF0A5D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckoutExampleSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E78269E1CDA4D120008C69A /* Sources */ = {
@@ -324,6 +364,7 @@
 		};
 		7E7826B51CDA4D120008C69A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1428AD0BEC9608F9EDF9E28 /* Pods-CheckoutExampleSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -332,7 +373,7 @@
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "\"${PODS_XCFRAMEWORKS_BUILD_DIR}/KountDataCollector/Headers\"";
 				INFOPLIST_FILE = CheckoutExampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -349,6 +390,7 @@
 		};
 		7E7826B61CDA4D120008C69A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF73B11ED124C66AA348E72A /* Pods-CheckoutExampleSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -357,7 +399,7 @@
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "\"${PODS_XCFRAMEWORKS_BUILD_DIR}/KountDataCollector/Headers\"";
 				INFOPLIST_FILE = CheckoutExampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

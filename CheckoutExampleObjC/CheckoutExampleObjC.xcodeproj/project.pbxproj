@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F08B23ECC3AF166E6CEBA61 /* Pods_CheckoutExampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038F82C04772C55C090BAEF7 /* Pods_CheckoutExampleObjC.framework */; };
 		7E7826791CD902180008C69A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7826781CD902180008C69A /* main.m */; };
 		7E78267C1CD902180008C69A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E78267B1CD902180008C69A /* AppDelegate.m */; };
 		7E78267F1CD902180008C69A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E78267E1CD902180008C69A /* ViewController.m */; };
@@ -14,8 +15,7 @@
 		7E7826841CD902180008C69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7826831CD902180008C69A /* Assets.xcassets */; };
 		7E7826871CD902180008C69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7826851CD902180008C69A /* LaunchScreen.storyboard */; };
 		7E7826981CD926830008C69A /* CheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7826971CD926830008C69A /* CheckoutViewController.m */; };
-		ACDCC40F2609AB4500BA9266 /* KountDataCollector.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDCC40B2609AB2200BA9266 /* KountDataCollector.xcframework */; };
-		ACDCC4102609AB4500BA9266 /* KountDataCollector.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ACDCC40B2609AB2200BA9266 /* KountDataCollector.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC83D0802680BC74004436A1 /* KountDataCollector.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83D07E2680BC11004436A1 /* KountDataCollector.xcframework */; };
 		ACFE766F25CAB95B00825D2C /* CustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFE766925CAB95B00825D2C /* CustomWindow.m */; };
 		ACFE767025CAB95B00825D2C /* UIViewController+TouchControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFE766A25CAB95B00825D2C /* UIViewController+TouchControl.m */; };
 		ACFE767125CAB95B00825D2C /* UIControl+CustomControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFE766E25CAB95B00825D2C /* UIControl+CustomControl.m */; };
@@ -28,7 +28,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ACDCC4102609AB4500BA9266 /* KountDataCollector.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,6 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		038F82C04772C55C090BAEF7 /* Pods_CheckoutExampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckoutExampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3905FDF8AEEDD2E8A877F965 /* Pods-CheckoutExampleObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckoutExampleObjC.debug.xcconfig"; path = "Target Support Files/Pods-CheckoutExampleObjC/Pods-CheckoutExampleObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		7E7826741CD902180008C69A /* CheckoutExampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckoutExampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7826781CD902180008C69A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E78267A1CD902180008C69A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,13 +49,14 @@
 		7E7826881CD902180008C69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E7826961CD926830008C69A /* CheckoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckoutViewController.h; sourceTree = "<group>"; };
 		7E7826971CD926830008C69A /* CheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckoutViewController.m; sourceTree = "<group>"; };
-		ACDCC40B2609AB2200BA9266 /* KountDataCollector.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = KountDataCollector.xcframework; path = ../KountDataCollector.xcframework; sourceTree = "<group>"; };
+		AC83D07E2680BC11004436A1 /* KountDataCollector.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = KountDataCollector.xcframework; path = Pods/Kount/xcframeworks/KountDataCollector.xcframework; sourceTree = "<group>"; };
 		ACFE766925CAB95B00825D2C /* CustomWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
 		ACFE766A25CAB95B00825D2C /* UIViewController+TouchControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TouchControl.m"; sourceTree = "<group>"; };
 		ACFE766B25CAB95B00825D2C /* UIControl+CustomControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CustomControl.h"; sourceTree = "<group>"; };
 		ACFE766C25CAB95B00825D2C /* CustomWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWindow.h; sourceTree = "<group>"; };
 		ACFE766D25CAB95B00825D2C /* UIViewController+TouchControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TouchControl.h"; sourceTree = "<group>"; };
 		ACFE766E25CAB95B00825D2C /* UIControl+CustomControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CustomControl.m"; sourceTree = "<group>"; };
+		C8EE3DD305C0D44570C8048A /* Pods-CheckoutExampleObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckoutExampleObjC.release.xcconfig"; path = "Target Support Files/Pods-CheckoutExampleObjC/Pods-CheckoutExampleObjC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,19 +64,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDCC40F2609AB4500BA9266 /* KountDataCollector.xcframework in Frameworks */,
+				AC83D0802680BC74004436A1 /* KountDataCollector.xcframework in Frameworks */,
+				5F08B23ECC3AF166E6CEBA61 /* Pods_CheckoutExampleObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		771F95DA3FB18FDA6140B499 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3905FDF8AEEDD2E8A877F965 /* Pods-CheckoutExampleObjC.debug.xcconfig */,
+				C8EE3DD305C0D44570C8048A /* Pods-CheckoutExampleObjC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7E78266B1CD902180008C69A = {
 			isa = PBXGroup;
 			children = (
-				ACDCC40B2609AB2200BA9266 /* KountDataCollector.xcframework */,
 				7E7826761CD902180008C69A /* CheckoutExampleObjC */,
 				7E7826751CD902180008C69A /* Products */,
+				771F95DA3FB18FDA6140B499 /* Pods */,
+				A115BA223C89D69E0295628A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +126,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A115BA223C89D69E0295628A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC83D07E2680BC11004436A1 /* KountDataCollector.xcframework */,
+				038F82C04772C55C090BAEF7 /* Pods_CheckoutExampleObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACFE766825CAB95B00825D2C /* TouchControls */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E78268B1CD902180008C69A /* Build configuration list for PBXNativeTarget "CheckoutExampleObjC" */;
 			buildPhases = (
+				8665EAE8BD659ACFF57DE300 /* [CP] Check Pods Manifest.lock */,
 				7E7826701CD902180008C69A /* Sources */,
 				7E7826711CD902180008C69A /* Frameworks */,
 				7E7826721CD902180008C69A /* Resources */,
@@ -195,6 +218,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8665EAE8BD659ACFF57DE300 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckoutExampleObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E7826701CD902180008C69A /* Sources */ = {
@@ -325,6 +373,7 @@
 		};
 		7E78268C1CD902180008C69A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3905FDF8AEEDD2E8A877F965 /* Pods-CheckoutExampleObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -333,7 +382,7 @@
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "\"${PODS_XCFRAMEWORKS_BUILD_DIR}/KountDataCollector/Headers\"";
 				INFOPLIST_FILE = CheckoutExampleObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -349,6 +398,7 @@
 		};
 		7E78268D1CD902180008C69A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EE3DD305C0D44570C8048A /* Pods-CheckoutExampleObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -357,7 +407,7 @@
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "\"${PODS_XCFRAMEWORKS_BUILD_DIR}/KountDataCollector/Headers\"";
 				INFOPLIST_FILE = CheckoutExampleObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
