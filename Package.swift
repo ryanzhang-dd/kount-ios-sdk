@@ -12,6 +12,6 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .binaryTarget(name: "KountDataCollect", url: "https://github.com/ryanzhang-dd/kount-ios-sdk/releases/download/4.1.6-doordash/KountDataCollect.xcframework.zip", checksum: "be7379822ea8ccf19892d5c8d05495ce8f15d1e1ed6e684ce649645aaaa55c90")
+        .binaryTarget(name: "KountDataCollect", url: "https://github.com/ryanzhang-dd/kount-ios-sdk/releases/download/4.1.7-doordash/KountDataCollect.xcframework.zip", checksum: "be7379822ea8ccf19892d5c8d05495ce8f15d1e1ed6e684ce649645aaaa55c90")
     ]
 )
